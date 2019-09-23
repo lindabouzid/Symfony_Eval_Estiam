@@ -14,7 +14,7 @@ class QuestionsType extends AbstractType
     {
         $builder
             ->add('title')
-            ->add('context')
+            ->add('content')
             ->add('user', EntityType::class, array(
                 'choice_label' => 'id',
                 'class' => 'App\Entity\Users'
