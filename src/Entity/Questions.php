@@ -29,7 +29,7 @@ class Questions
     private $context;
 
     /**
-     * @ORM\ManyToOne(targetEntity="App\Entity\users", inversedBy="questions")
+     * @ORM\ManyToOne(targetEntity="App\Entity\Users", inversedBy="questions")
      * @ORM\JoinColumn(nullable=false)
      */
     private $user;
